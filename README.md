@@ -36,7 +36,7 @@ This project requires the following dependencies:
 </pre>
 
 **1_Setup.py**
-
+<pre>
 2024-08-16 00:35:05 randgen: <random.SystemRandom object at 0x0000019724FD97F0>
 2024-08-16 00:35:05 security_parameter_bits: 256
 2024-08-16 00:35:05 -----------setup() start---------------------
@@ -48,9 +48,10 @@ This project requires the following dependencies:
 2024-08-16 00:35:05 Public parameters [q]: 43338902524286010495894286390164298664869956446735290089351048146541144101429
 2024-08-16 00:35:05 Public parameters [g]: 19297527285066529265454609697033848751256679366102005973503197331787333292451
 2024-08-16 00:35:05 Public parameters [h]: 7447314927951270772763710799525122921468655847693100588234688199011709695511
+</pre>
 
 **2_Token_And_Ciper_Gen_OPRF.py**
-
+<pre>
 2024-08-16 00:35:10 ------Token and CiperText Generation Start------
 2024-08-16 00:35:10 Load Data Owner file: do_keyword_sets.json
 2024-08-16 00:35:10 Load Data User file: du_keyword_set.json
@@ -62,9 +63,10 @@ This project requires the following dependencies:
 2024-08-16 00:35:11 Token Generation Avg. Time\uff1a0.001602005958557129 seconds.
 2024-08-16 00:35:11 Token Generation Total Time\uff1a0.1560063362121582 seconds, Generated 1000 CiperText(s).
 2024-08-16 00:35:11 Token Generation Avg. Time\uff1a0.0001560063362121582 seconds.
+</pre>
 
 **3_ClouldServer_Pre_Processing.py**
-
+<pre>
 2024-08-16 00:35:16 ------Cloud Server Pre-processing Start------
 2024-08-16 00:35:16 Save search_parameters K_1 and a_coeffs into ps_1_data.json
 2024-08-16 00:35:16 Save search_parameters K_2 and a_coeffs into ps_2_data.json
@@ -80,8 +82,8 @@ This project requires the following dependencies:
 2024-08-16 00:35:16 Clould Server Pre Processing Total\uff1a0.1886434555053711 seconds, geneated 10 polynomials with degress 100
 2024-08-16 00:35:16 Avg. polynomial interperation time\uff1a0.01886434555053711 seconds
 
-
 **4_Keyword_Search_PSI.py** 
+<pre>
 2024-08-16 00:36:27 Found file: ps_10_data.json
 2024-08-16 00:36:27 Found file: ps_1_data.json
 2024-08-16 00:36:27 Found file: ps_2_data.json
@@ -102,3 +104,4 @@ This project requires the following dependencies:
 2024-08-16 00:36:27 ------Keyword search End------
 2024-08-16 00:36:27 Keyword search total Time: 0.10758209228515625 seconds, search 10 keyowrd(s) in 1000 keyowrd(s).
 2024-08-16 00:36:27 Avg. Keyword search Time: 0.010758209228515624 seconds, from total 1000 keyowrd(s).
+</pre>
