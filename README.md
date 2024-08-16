@@ -19,13 +19,12 @@ This project requires the following dependencies:
 - Cryptography library
 - NumPy library
 
-You can install the dependencies using pip:
 
-This is a simulation of an Efficient Public-key Searchable Encryption Scheme that utilizes Private Set Intersection (PSI) with Scalable Proxy Servers.
 
-**##To run the simulation, follow these steps**
-Execute 0_DataGen.py to generate the test data for the keywords.
+## Samples of excution Logs
 
+
+**Execute 0_DataGen.py**
 2024-08-16 00:34:29 Data owner - Set Num: 10
 2024-08-16 00:34:29 Keywords Per Set (Data owner): 100
 2024-08-16 00:34:29 Data owner: Search Keywords Number: 10
@@ -35,7 +34,7 @@ Execute 0_DataGen.py to generate the test data for the keywords.
 2024-08-16 00:34:29 Data user keywords Set saved to file: du_keyword_set.json
 
 
-Run 1_Setup.py to set up the public parameters.
+**1_Setup.py**
 
 2024-08-16 00:35:05 randgen: <random.SystemRandom object at 0x0000019724FD97F0>
 2024-08-16 00:35:05 security_parameter_bits: 256
@@ -49,9 +48,7 @@ Run 1_Setup.py to set up the public parameters.
 2024-08-16 00:35:05 Public parameters [g]: 19297527285066529265454609697033848751256679366102005973503197331787333292451
 2024-08-16 00:35:05 Public parameters [h]: 7447314927951270772763710799525122921468655847693100588234688199011709695511
 
-
-
-Execute 2_Token_And_Ciper_Gen_OPRF to generate the keyword search tokens and ciphertext.
+**2_Token_And_Ciper_Gen_OPRF.py**
 
 2024-08-16 00:35:10 ------Token and CiperText Generation Start------
 2024-08-16 00:35:10 Load Data Owner file: do_keyword_sets.json
@@ -65,7 +62,8 @@ Execute 2_Token_And_Ciper_Gen_OPRF to generate the keyword search tokens and cip
 2024-08-16 00:35:11 Token Generation Total Time\uff1a0.1560063362121582 seconds, Generated 1000 CiperText(s).
 2024-08-16 00:35:11 Token Generation Avg. Time\uff1a0.0001560063362121582 seconds.
 
-Run 3_ClouldServer_Pre_Processing to complete the pre-processing on the cloud server side.
+**3_ClouldServer_Pre_Processing.py**
+
 2024-08-16 00:35:16 ------Cloud Server Pre-processing Start------
 2024-08-16 00:35:16 Save search_parameters K_1 and a_coeffs into ps_1_data.json
 2024-08-16 00:35:16 Save search_parameters K_2 and a_coeffs into ps_2_data.json
@@ -82,7 +80,7 @@ Run 3_ClouldServer_Pre_Processing to complete the pre-processing on the cloud se
 2024-08-16 00:35:16 Avg. polynomial interperation time\uff1a0.01886434555053711 seconds
 
 
-Execute 4_Keyword_Search_PSI to simulate the keyword search using the generated tokens within the ciphertexts.
+**4_Keyword_Search_PSI.py** 
 2024-08-16 00:36:27 Found file: ps_10_data.json
 2024-08-16 00:36:27 Found file: ps_1_data.json
 2024-08-16 00:36:27 Found file: ps_2_data.json
