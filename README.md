@@ -21,7 +21,7 @@ This project requires the following dependencies:
 
 
 
-## Samples of excution Logs
+## Sample of Excution Logs
 
 
 **Execute 0_DataGen.py**
