@@ -1,0 +1,14 @@
+2024-08-16 00:35:16 ------Cloud Server Pre-processing Start------
+2024-08-16 00:35:16 Save search_parameters K_1 and a_coeffs into ps_1_data.json
+2024-08-16 00:35:16 Save search_parameters K_2 and a_coeffs into ps_2_data.json
+2024-08-16 00:35:16 Save search_parameters K_3 and a_coeffs into ps_3_data.json
+2024-08-16 00:35:16 Save search_parameters K_4 and a_coeffs into ps_4_data.json
+2024-08-16 00:35:16 Save search_parameters K_5 and a_coeffs into ps_5_data.json
+2024-08-16 00:35:16 Save search_parameters K_6 and a_coeffs into ps_6_data.json
+2024-08-16 00:35:16 Save search_parameters K_7 and a_coeffs into ps_7_data.json
+2024-08-16 00:35:16 Save search_parameters K_8 and a_coeffs into ps_8_data.json
+2024-08-16 00:35:16 Save search_parameters K_9 and a_coeffs into ps_9_data.json
+2024-08-16 00:35:16 Save search_parameters K_10 and a_coeffs into ps_10_data.json
+2024-08-16 00:35:16 ------Cloud Server Pre-processing End------
+2024-08-16 00:35:16 Clould Server Pre Processing Total\uff1a0.1886434555053711 seconds, geneated 10 polynomials with degress 100
+2024-08-16 00:35:16 Avg. polynomial interperation time\uff1a0.01886434555053711 seconds

@@ -1,0 +1,20 @@
+2024-08-16 00:36:27 Found file: ps_10_data.json
+2024-08-16 00:36:27 Found file: ps_1_data.json
+2024-08-16 00:36:27 Found file: ps_2_data.json
+2024-08-16 00:36:27 Found file: ps_3_data.json
+2024-08-16 00:36:27 Found file: ps_4_data.json
+2024-08-16 00:36:27 Found file: ps_5_data.json
+2024-08-16 00:36:27 Found file: ps_6_data.json
+2024-08-16 00:36:27 Found file: ps_7_data.json
+2024-08-16 00:36:27 Found file: ps_8_data.json
+2024-08-16 00:36:27 Found file: ps_9_data.json
+2024-08-16 00:36:27 ------Keyword search Start------
+2024-08-16 00:36:27 Load public params
+2024-08-16 00:36:27 ------Load Y------
+2024-08-16 00:36:27 Randomly Choose Proxy Server, Proxy Serer Index {random_ps_index}.
+2024-08-16 00:36:27 Loading PS Data from ps_{random_ps_index}_data.json.
+2024-08-16 00:36:27 Compute ct_j and t_j
+2024-08-16 00:36:27 Perform keyword search
+2024-08-16 00:36:27 ------Keyword search End------
+2024-08-16 00:36:27 Keyword search total Time: 0.10758209228515625 seconds, search 10 keyowrd(s) in 1000 keyowrd(s).
+2024-08-16 00:36:27 Avg. Keyword search Time: 0.010758209228515624 seconds, from total 1000 keyowrd(s).

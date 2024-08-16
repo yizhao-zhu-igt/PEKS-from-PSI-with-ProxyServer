@@ -1,0 +1,11 @@
+2024-08-16 00:35:10 ------Token and CiperText Generation Start------
+2024-08-16 00:35:10 Load Data Owner file: do_keyword_sets.json
+2024-08-16 00:35:10 Load Data User file: du_keyword_set.json
+2024-08-16 00:35:10 Save Token into file Y.json
+2024-08-16 00:35:11 ------Token and CiperText Generation End------
+2024-08-16 00:35:11 Save Ciper Text into file X_star.json
+2024-08-16 00:35:11 Save Token into file Y.json
+2024-08-16 00:35:11 Token Generation Total Time\uff1a0.01602005958557129 seconds, Generated 10 Token(s).
+2024-08-16 00:35:11 Token Generation Avg. Time\uff1a0.001602005958557129 seconds.
+2024-08-16 00:35:11 Token Generation Total Time\uff1a0.1560063362121582 seconds, Generated 1000 CiperText(s).
+2024-08-16 00:35:11 Token Generation Avg. Time\uff1a0.0001560063362121582 seconds.
