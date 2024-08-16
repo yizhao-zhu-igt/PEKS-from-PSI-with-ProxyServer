@@ -25,6 +25,7 @@ This project requires the following dependencies:
 
 
 **Execute 0_DataGen.py**
+<pre>
 2024-08-16 00:34:29 Data owner - Set Num: 10
 2024-08-16 00:34:29 Keywords Per Set (Data owner): 100
 2024-08-16 00:34:29 Data owner: Search Keywords Number: 10
@@ -32,7 +33,7 @@ This project requires the following dependencies:
 2024-08-16 00:34:29 Data User Keywords: 10 In Total - generated
 2024-08-16 00:34:29 Data owner keywords Set saved to file: do_keyword_sets.json
 2024-08-16 00:34:29 Data user keywords Set saved to file: du_keyword_set.json
-
+</pre>
 
 **1_Setup.py**
 
