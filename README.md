@@ -1,10 +1,29 @@
 # Efficient Public-key Searchable Encryption Scheme from PSI with Scalable Proxy Servers
 Efficient Public-key Searchable Encryption Scheme from PSI with Scalable Proxy Servers
+## Description
 
+This project is a simulation of an Efficient Public-key Searchable Encryption Scheme that utilizes Private Set Intersection (PSI) with Scalable Proxy Servers. The simulation involves the following steps:
+
+1. Data generation: The `0_DataGen.py` script generates the test data for the keywords, including the data owner's keyword sets and the data user's keyword set.
+2. Setup: The `1_Setup.py` script sets up the public parameters for the encryption scheme.
+3. Token and ciphertext generation: The `2_Token_And_Ciper_Gen_OPRF` script generates the keyword search tokens and ciphertext.
+4. Cloud server pre-processing: The `3_ClouldServer_Pre_Processing` script completes the pre-processing on the cloud server side.
+5. Keyword search: The `4_Keyword_Search_PSI` script simulates the keyword search using the generated tokens within the ciphertexts.
+
+The simulation output logs the various steps and timings of the process, providing insights into the performance and efficiency of the encryption scheme.
+
+## Dependencies
+
+This project requires the following dependencies:
+- Python 3.x
+- Cryptography library
+- NumPy library
+
+You can install the dependencies using pip:
 
 This is a simulation of an Efficient Public-key Searchable Encryption Scheme that utilizes Private Set Intersection (PSI) with Scalable Proxy Servers.
 
-To run the simulation, follow these steps:
+**##To run the simulation, follow these steps**
 Execute 0_DataGen.py to generate the test data for the keywords.
 
 2024-08-16 00:34:29 Data owner - Set Num: 10
